@@ -126,7 +126,7 @@ class DataService {
             }
 
             // Si todo falla, retornar '0' para indicar sin señal
-            print('⚠️ No se pudo obtener RSSI en foreground service isolate');
+            //print('⚠️ No se pudo obtener RSSI en foreground service isolate');
             return '0';
           } catch (e) {
             print('⚠️ Error inesperado al obtener RSSI: $e');
